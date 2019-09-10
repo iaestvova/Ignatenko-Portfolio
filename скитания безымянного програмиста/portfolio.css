@@ -1,0 +1,262 @@
+*{
+	padding: 0;
+	margin: 0 ;
+}
+
+html{
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	font-weight: 300;
+}
+
+b{
+	font-weight: 500;
+}
+
+div{
+	display: block;
+}
+
+.wrapper{
+	width: 1440px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.social-network{
+	position: fixed;
+	top: 50%;
+	transform: translate(0, -50%);
+	z-index: 2;
+}
+
+li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+.telegram{
+	height: 40px;
+	width: 40px;
+	padding:0 0 20px 40px;
+}
+
+.instagram{
+	height: 40px;
+	width: 40px;
+	padding:0 0 20px 40px;
+}
+
+.first-screen{
+	background-image: url(img/dashed-line.png);
+	background-size: cover;
+	width: 100%;
+	height: 1080px;
+}
+
+h1{
+	font-weight: 300;
+	font-size: 115px;
+	color: #000;
+	line-height: 105px;
+	text-align: center;
+	letter-spacing: -5px;
+}
+
+.yellow{
+	color: #a38671;
+}
+
+.bold{
+	font-weight: 500;
+}
+
+h2{
+	color: #fff;
+	font-size: 75px;
+	font-weight: 300;
+	line-height: 80px;
+	letter-spacing: -5px;
+}
+
+h3{
+	color: #000;
+	opacity: 0.8;
+	font-weight: 300;
+	font-size: 42px;
+	text-align: center;
+}
+
+.wrapper h3{
+	padding-top: 385px;
+}
+
+.second-screen{
+	position: relative;
+	background-color: #2b2b2b;
+	height: 1080px;
+}
+
+p{
+	color: #fff;
+	line-height: 40pt;
+    font-size: 24pt;
+    padding-top: 50px;
+}
+
+.photo-arrow{
+	position: relative;
+}
+
+.arrow{
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0);
+	margin-top: -160px;
+}
+
+.photo{
+	margin-top: -100px;
+	width: 1440px;
+	max-width: 100%;
+}
+
+.button{
+	position: flex;
+	float: right;
+	top: 100%;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	transform: translate(0, -100%);
+	font-size: 50pt;
+	line-height: 60px;
+	padding: 20px;
+	transition: 0.2s;
+}
+
+.button:hover{
+text-shadow: 0 0 8px #fff,
+				0 0 16px #fff,
+                0 0 32px #fff;
+}
+
+.adventages{
+	position: relative;
+	width: 100%;
+}
+
+.block-left{
+	position: absolute;
+	width: 50%;
+    float: left;
+}
+
+.block-right{
+	position: absolute;
+	width: 50%;
+    float: right;
+    right: 0;
+
+}
+
+.design{
+	float: left;
+	width: 20%;
+	padding-left: 180px;
+	padding-top: 120px;
+}
+
+.programming{
+	float: right;
+	width: 30%;
+    padding-right: 30px;
+    padding-top: 120px;
+}
+
+.third-screen{
+	width: 1440px;
+	max-width: 100%;
+	margin: 0 auto;
+	height: 1040px;
+}
+
+.latest-work{
+	background-color: #e8e8e8;
+	border-radius: 20px;
+	width: 640px;
+	height: 480px;
+	max-width: 100%;
+	max-height: 100%;
+	margin-top: 164px;
+}
+
+.right{
+	float: right;
+	position: relative;
+}
+
+.left{
+	float: left;
+	position: relative;
+}
+
+.bottom{
+	padding-top: 400px;
+	padding-bottom: 40px;
+}
+
+.view{
+	float: right;
+	padding-right: 40px;
+	opacity: 0.7;
+	transition: 0.2s;
+}
+
+.view:hover{
+	opacity: 1;
+}
+
+.arrow-right{
+	float: left;
+	padding-left: 40px;
+	width: 100px;
+	height: 100px;
+	transition: 0.2s;
+}
+
+.arrow-right:hover{
+	transform: rotate(-45deg);
+}
+
+.title{
+	padding-top: 175px;
+}
+
+.footer{
+	position: relative;
+	padding-bottom: 250px;
+	padding-top: 100px;
+}
+
+
+
+footer a{
+	font-size: 40pt;
+	opacity: 0.7;
+	border: 3px solid grey;
+	border-radius: 50px;
+	padding: 15px 40px;
+	position: absolute;
+	margin-top: 40px;
+	left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0);
+    transition: 0.2s;
+}
+
+footer a:hover{
+	opacity: 1;
+}
